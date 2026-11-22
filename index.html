@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>לב יעקב — מישהו אחד. לאורך כל הדרך.</title>
+<meta name="description" content="לב יעקב — מיצוי זכויות וליווי מטופלים אונקולוגיים לאורך כל הדרך.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#FBF2E6;--ink:#16232f;--ink2:#4a6178;--blue:#2f7bc4;--deep:#0f3f68;--deeper:#0c2c48;--light:#e7f3fc;--mid:#6cb2e8;--border:#ecdfc9;--gold:#c9a24a;--r:16px;--sh:0 2px 16px rgba(18,72,118,.09);--shl:0 14px 34px rgba(18,72,118,.16)}
+*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{font-family:'Heebo',Arial,sans-serif;background:#fff;color:var(--ink);line-height:1.75;font-size:17px}
+h1,h2,h3,.rub{font-family:'Rubik','Heebo',Arial,sans-serif}
+a{color:var(--blue)}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+/* top bar */
+.top{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+.top .wrap{display:flex;align-items:center;gap:22px;height:72px}
+.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--deep)}
+.brand img{height:52px;width:auto;border-radius:10px}
+.brand span{font-family:Rubik,sans-serif;font-weight:600;font-size:1.25rem}
+.nav{display:flex;gap:4px;margin-inline-start:auto;align-items:center}
+.nav a{color:var(--ink);text-decoration:none;padding:8px 13px;border-radius:999px;font-weight:500;font-size:.97rem}
+.nav a:hover{background:var(--light);color:var(--deep)}
+.btn{display:inline-block;background:var(--deep);color:#fff!important;text-decoration:none;padding:12px 26px;border-radius:999px;font-weight:600;font-family:Rubik,sans-serif;box-shadow:var(--sh);transition:.2s}
+.btn:hover{background:var(--blue);transform:translateY(-2px)}
+.btn.alt{background:transparent;border:2px solid rgba(255,255,255,.8);box-shadow:none}
+.btn.alt:hover{background:rgba(255,255,255,.15)}
+.top .btn{padding:9px 20px}
+/* hero */
+.hero{background:#0f3f68 url(data:image/webp;base64,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) center/cover no-repeat;color:#fff;text-align:center;padding:84px 0 70px}
+.hero h1{font-size:clamp(1.9rem,4.4vw,3.3rem);line-height:1.3;font-weight:700;max-width:860px;margin:0 auto 18px;text-shadow:0 2px 14px rgba(0,0,0,.3)}
+.hero h1 mark{background:none;color:#fff;border-bottom:4px solid var(--gold)}
+.hero p.sub{max-width:700px;margin:0 auto 30px;font-size:1.15rem;opacity:.96}
+.hero .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.hero .btn:not(.alt){background:#fff;color:var(--deep)!important}
+.hero .btn:not(.alt):hover{background:var(--light)}
+.steps5{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:54px}
+.step5{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.22);border-radius:var(--r);padding:20px 12px 16px;backdrop-filter:blur(3px)}
+.circ{position:relative;display:inline-flex;width:64px;height:64px;border-radius:50%;background:rgba(255,255,255,.14);border:2px solid var(--gold);align-items:center;justify-content:center;margin-bottom:10px}
+.circ .em{font-size:30px;line-height:1}.circ b{position:absolute;top:-8px;right:-8px;background:var(--gold);color:#fff;width:24px;height:24px;border-radius:50%;font-size:.8rem;display:flex;align-items:center;justify-content:center}
+.step5 p{font-size:.95rem;line-height:1.5}
+/* sections */
+section{padding:78px 0}
+.alt-bg{background:var(--bg)}
+.kicker{display:inline-block;background:var(--light);color:var(--deep);padding:4px 14px;border-radius:999px;font-weight:600;font-size:.88rem;margin-bottom:12px}
+h2{font-size:clamp(1.5rem,3vw,2.2rem);line-height:1.35;color:var(--deeper);margin-bottom:14px}
+.lead{font-size:1.12rem;color:var(--ink2);max-width:820px}
+.center{text-align:center}.center .lead{margin-inline:auto}
+.grid{display:grid;gap:22px;margin-top:36px}.g3{grid-template-columns:repeat(3,1fr)}.g2{grid-template-columns:repeat(2,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+.card{background:#fff;border:1px solid var(--border);border-radius:var(--r);box-shadow:var(--sh);padding:26px;transition:.2s}
+.card:hover{box-shadow:var(--shl);transform:translateY(-3px)}
+.card .n{display:inline-flex;width:38px;height:38px;border-radius:50%;background:var(--blue);color:#fff;font-weight:700;align-items:center;justify-content:center;margin-bottom:12px;font-family:Rubik}
+.card h3{font-size:1.14rem;line-height:1.45;color:var(--deeper);margin-bottom:8px}
+.card p{color:var(--ink2);font-size:.98rem}
+details{margin-top:12px}summary{cursor:pointer;color:var(--blue);font-weight:600;font-size:.95rem}details p{margin-top:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.chip{background:var(--light);color:var(--deep);padding:5px 12px;border-radius:999px;font-size:.88rem}
+.quote{border-inline-start:4px solid var(--blue);background:var(--light);padding:16px 20px;border-radius:0 12px 12px 0;font-style:italic;color:var(--deep);margin-top:14px}
+/* solution */
+.sol{background:linear-gradient(135deg,var(--deeper),var(--deep));color:#fff}
+.sol h2,.sol h3{color:#fff}.sol .lead{color:#dbeafa}
+.role{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:var(--r);padding:28px}
+.role h3{font-size:1.4rem;margin-bottom:4px}.role .en{opacity:.8;font-size:.95rem;margin-bottom:12px;display:block}
+.role p{color:#e6f1fc}
+.principle{margin-top:28px;text-align:center;font-size:1.15rem;font-weight:500}.principle b{color:#ffd98a}
+/* steps */
+.timeline{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:38px;counter-reset:s}
+.tstep{background:#fff;border:1px solid var(--border);border-radius:var(--r);padding:26px 20px;text-align:center;box-shadow:var(--sh);position:relative}
+.tstep .n{display:inline-flex;width:46px;height:46px;border-radius:50%;background:var(--blue);color:#fff;font-weight:700;align-items:center;justify-content:center;margin-bottom:12px;font-family:Rubik;font-size:1.1rem}
+.tstep h3{font-size:1.08rem;color:var(--deeper);margin-bottom:8px}.tstep p{font-size:.96rem;color:var(--ink2)}
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:34px}
+.stat{text-align:center;background:#fff;border:1px solid var(--border);border-radius:var(--r);padding:26px 14px;box-shadow:var(--sh)}
+.stat .num{font-family:Rubik;font-weight:700;font-size:2.3rem;color:var(--blue);line-height:1.1}.stat p{font-size:.95rem;color:var(--ink2);margin-top:6px}
+table{width:100%;border-collapse:collapse;margin-top:30px;background:#fff;border-radius:var(--r);overflow:hidden;box-shadow:var(--sh)}
+th,td{padding:14px 18px;text-align:right;border-bottom:1px solid var(--border)}th{background:var(--deep);color:#fff;font-family:Rubik}td:first-child{font-weight:700;color:var(--deeper)}td.add{color:var(--deep);background:var(--light);font-weight:500}
+.closing{max-width:860px;margin:34px auto 0;text-align:center;font-size:1.15rem;color:var(--ink2)}.closing b{color:var(--deeper)}
+/* contact */
+.contact{background:var(--bg)}
+.cbox{max-width:640px;margin:34px auto 0;background:#fff;border:1px solid var(--border);border-radius:20px;box-shadow:var(--shl);padding:36px;text-align:center}
+.cbox .who{font-family:Rubik;font-size:1.3rem;color:var(--deep)}
+.cbox .tel{display:block;font-family:Rubik;font-size:2rem;font-weight:700;color:var(--blue);text-decoration:none;direction:ltr;margin:6px 0 10px}
+.pro{margin-top:34px;background:var(--deeper);color:#fff;border-radius:20px;padding:34px;text-align:center}.pro h3{font-size:1.4rem;margin-bottom:6px}.pro p{color:#dbeafa}
+footer{background:#0a2236;color:#c4d6e8;padding:54px 0 26px;font-size:.95rem}
+.fcols{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:34px}.fcols h4{color:#fff;font-family:Rubik;margin-bottom:10px}.fcols a{display:block;color:#c4d6e8;text-decoration:none;padding:3px 0}.fcols a:hover{color:#fff}
+.fcols img{height:64px;border-radius:12px;margin-bottom:10px}
+.fsrc{border-top:1px solid rgba(255,255,255,.15);margin-top:30px;padding-top:18px;font-size:.82rem;opacity:.8;line-height:1.6}
+@media(max-width:900px){.nav a:not(.btn){display:none}.steps5{grid-template-columns:repeat(2,1fr)}.g3,.g2,.g4,.timeline,.stats{grid-template-columns:1fr 1fr}.fcols{grid-template-columns:1fr}}
+@media(max-width:560px){body{font-size:16px}section{padding:52px 0}.hero{padding:50px 0 44px}.g3,.g2,.g4,.timeline,.stats{grid-template-columns:1fr}.steps5{grid-template-columns:1fr 1fr}.brand span{display:none}.cbox{padding:26px 16px}}
+</style></head><body>
+<header class="top"><div class="wrap">
+<a class="brand" href="#top"><img src="data:image/webp;base64,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" alt="לוגו לב יעקב"><span>לב יעקב</span></a>
+<nav class="nav"><a href="#why">הנתק</a><a href="#idea">הפתרון</a><a href="#how">איך זה עובד</a><a href="#proof">מהמחקר</a><a href="#about">אודות</a><a href="#contact">צור קשר</a><a class="btn" href="#contact">📞 דברו איתנו</a></nav>
+</div></header>
+<main id="top">
+<div class="hero"><div class="wrap">
+<h1>מישהו אחד.<br>לאורך כל הדרך —<br>מהאבחון, לאורך הטיפולים <mark>וגם</mark> בחזרה לשגרה החדשה.</h1>
+<p class="sub">עמותה מבוססת מחקר, שמנגישה לכל מטופל סרטן את מלוא ההטבות והזכויות המגיעות לו — מהמדינה וגם מעשרות העמותות הקיימות:</p>
+<div class="cta"><a class="btn" href="#contact">ליצירת קשר</a><a class="btn alt" href="#how">איך זה עובד</a></div>
+<div class="steps5"><div class="step5"><span class="circ"><span class="em">💡</span><b>1</b></span><p>מעדכנת אותו, ביוזמתה, בכל הטבה שמגיעה לו.</p></div><div class="step5"><span class="circ"><span class="em">📋</span><b>2</b></span><p>מטפלת בבירוקרטיה ובניירת עבורו.</p></div><div class="step5"><span class="circ"><span class="em">📞</span><b>3</b></span><p>מתקשרת מדי פעם לבדוק מה שלומו.</p></div><div class="step5"><span class="circ"><span class="em">🎁</span><b>4</b></span><p>מציעה הטבות נוספות בהתאם לצרכים שיעלו.</p></div><div class="step5"><span class="circ"><span class="em">🤝</span><b>5</b></span><p>נשארת בקשר גם בחזרה לשגרה החדשה.</p></div></div>
+</div></div>
+
+<section id="why"><div class="wrap">
+<span class="kicker">💔 הנתק</span>
+<h2>הכול כבר קיים. כמעט אף אחד לא מגיע אליו.</h2>
+<div class="grid g3">
+<div class="card"><span class="n">1</span><h3>המטופל והמשפחה רצים מטיפול לטיפול, כואבים ומותשים. לניירת ולבירוקרטיה — פשוט לא נשאר כוח.</h3><details><summary>הסיפור המלא</summary><p>מעבר לכאב ולעייפות הפיזית, ברוב המקרים המטופל ובני משפחתו גם לא יודעים מה בכלל מגיע להם. ואפילו מי שכן יודע — לרוב פשוט אין לו את הכוח והפניות להתמודד גם עם הניירת והבירוקרטיה, מעל כל השאר.</p></details></div>
+<div class="card"><span class="n">2</span><h3>בתי החולים בעומס אמיתי — הצוותים המסורים עסוקים סביב השעון בטיפול הרפואי והנפשי.</h3><details><summary>הנתונים הרשמיים</summary><p>בתי החולים בישראל, והצוותים הסוציאליים בהם, עושים עבודה חשובה ומסורה מול מספר עצום של מטופלים. העומס הוא גדול באמת: לפי ממצאי ועדת היגוי של משרד הבריאות, השירות הסוציאלי בבתי החולים מתמודד עם עומסי עבודה כבדים, ויש קושי אובייקטיבי לסייע לכל מטופל למצות את מלוא זכויותיו בתוך פרק הזמן הקצר של האשפוז. זו בדיוק הנקודה שבה תפקיד ליווי ייעודי יכול להשלים את העבודה המצוינת שכבר נעשית — לא להחליף אותה.</p></details></div>
+<div class="card"><span class="n">3</span><h3>עשרות עמותות מצוינות קיימות — אבל כמעט אף אחד לא יודע שהן שם.</h3><details><summary>כל התחומים</summary><p>קצה הקרחון של מה שאפשר למצות דרך העמותות הקיימות:</p><div class="chips"><span class="chip">💙 ליווי נפשי וקבוצות תמיכה</span><span class="chip">💰 סיוע כלכלי</span><span class="chip">📋 מידע, זכויות וייעוץ</span><span class="chip">💳 הטבות כלכליות ומס</span><span class="chip">🏛️ ביטוח לאומי</span><span class="chip">📚 חינוך והשלמת לימודים</span><span class="chip">🎉 ימי כיף ופעילויות בידור</span><span class="chip">🏕️ חופשות ומחנות נופש</span><span class="chip">🏠 דיור ואירוח ליד בית חולים</span><span class="chip">🚗 הסעות לטיפולים</span><span class="chip">🍲 ארוחות חמות</span><span class="chip">💇 פאות, טיפוח ומראה</span><span class="chip">🏃 פעילות גופנית ושיקום</span><span class="chip">📞 קווי סיוע טלפוניים</span><span class="chip">👨‍👩‍👧 תמיכה לבני משפחה</span><span class="chip">🕊️ טיפול תומך והוספיס</span><span class="chip">🎗️ תמיכה לסוגי סרטן ספציפיים</span><span class="chip">🔬 מחקר ופיתוח רפואי</span></div></details></div>
+<div class="card"><span class="n">4</span><h3>המדינה נותנת הרבה — אבל כמעט אף אחד לא יודע איך לקחת את זה.</h3><details><summary>כל ההטבות</summary><p>כמה דוגמאות מתוך רשימת הזכויות וההטבות מול המדינה:</p><div class="chips"><span class="chip">🧾 פטור ממס הכנסה</span><span class="chip">🏠 הנחה בארנונה</span><span class="chip">📅 דמי מחלה מהיום הראשון</span><span class="chip">🧑‍⚕️ קצבת נכות כללית</span><span class="chip">🤝 קצבת שירותים מיוחדים</span><span class="chip">🏡 גמלת סיעוד</span><span class="chip">💼 שיקום מקצועי לחזרה לעבודה</span><span class="chip">👶 קצבת ילד נכה</span></div></details></div>
+<div class="card"><span class="n">5</span><h3>מטופלים לא מקבלים כמעט כלום ממה שהיה כל כך יכול לעזור להם.</h3><details><summary>כל נתוני הסקרים</summary><p>סקר "אולקן" מציג תמונה מלאה של כמה מהזכויות מול הביטוח הלאומי והמדינה מגיעות בפועל למחלימים — ומראה בעיקר כמה גדול הצורך בליווי: 9.9% קיבלו תמונה מקיפה על זכויותיהם. 36% מיצו רק חלק מהזכויות או לא מיצו כלל — כי פשוט לא ידעו שהן קיימות. 51% בחרו לשלם מכיסם ליועץ פרטי, כי לא היה להם למי לפנות בחינם. 78% חושבים שסל השירותים למחלימים צריך להתרחב.</p></details></div>
+<div class="card"><span class="n">6</span><h3>גם מי שחזר לשגרה החדשה — פתאום לבד, כמעט בלי אף אחד שממשיך איתו.</h3><details><summary>מה אומר המחקר</summary><p>מחקר בינלאומי עקבי מראה שהקושי הכי גדול בכל מסע הסרטן הוא דווקא אחרי שהטיפול מסתיים. גם בישראל התמונה דומה: רק 19% מהמחלימים בסקר "אולקן" הרגישו "מוחלמים" באמת מיד עם סיום הטיפול, ו-21% מעולם לא הרגישו כך.</p></details></div>
+</div>
+<p class="closing"><b>הפרדוקס:</b> יש הכול. אין מי שיחבר. והמטופל והמשפחה נשארים לבד עם הכאב.</p>
+</div></section>
+
+<section id="idea" class="sol"><div class="wrap">
+<span class="kicker">💡 הפתרון</span>
+<h2>מלווה אישי שדואג שתקבלו את כל מה שמגיע לכם — מתקשורת מול הגופים השונים ועד שיחות על היום-יום החדש והמאתגר.</h2>
+<div class="grid g2">
+<div class="role"><h3>"נווט מטופל"</h3><span class="en">("Patient Navigator")</span><p>נווט המטופל הוא חבר לדרך. אדם מטעם העמותה שנמצא בקשר אישי ומתמשך עם המטופל ועם משפחתו — לאורך הטיפולים, ההחלמה וגם ב"שגרה החדשה".</p><p style="margin-top:10px">הנווט מקשיב, מתעניין בשלומו של המטופל, נמצא שם עבורו ומזהה צרכים שעשויים לעלות לאורך הדרך. כאשר הוא מזהה צורך, הוא מציע שירותים, זכויות ואפשרויות תמיכה שיכולים להקל על המטופל ועל משפחתו. אם המטופל מעוניין, הנווט מעביר את הבקשה למרכז הליווי, שמטפל בצד המעשי — מסמכים, תיאומים וקשר מול הגופים השונים.</p></div>
+<div class="role"><h3>מרכז הליווי</h3><span class="en">&nbsp;</span><p>המרכז מסייע באיתור זכויות ושירותים, מחבר את המטופל לגופים שיכולים לעזור לו, ומטפל בצד המעשי — מסמכים, תיאומים, פניות ומעקב.</p><p style="margin-top:10px">מרכז הליווי הוא הכתובת של המטופל ושל הנווט לכל מה שצריך לאורך הדרך. יחד, שני התפקידים מרכיבים את מה שאנחנו קוראים "המודל המשולב".</p></div>
+</div>
+<p class="principle">המטרה היא פשוטה: שהמטופל ירגיש שהוא לא לבד — יש לו מישהו שמכיר אותו, זוכר אותו ונמצא שם עבורו.<br><b>העיקרון: ללא עלות, ללא התחייבות</b>, ובלי שהמטופל צריך לדעת מה לבקש.</p>
+</div></section>
+
+<section id="how" class="alt-bg"><div class="wrap center">
+<span class="kicker">🛠️ איך זה עובד</span>
+<h2>בלי לבקש, בלי לחפש — הכול מגיע אליכם.</h2>
+<p class="lead">4 שלבים פשוטים</p>
+<div class="timeline" style="text-align:center">
+<div class="tstep"><span class="n">1</span><h3>שיחה עם העובד/ת הסוציאלי/ת</h3><p>העובד/ת הסוציאלי/ת בבית החולים מעביר/ה רק שם וטלפון (ללא מידע רפואי).</p></div>
+<div class="tstep"><span class="n">2</span><h3>שיחת היכרות עם מרכז הליווי</h3><p>מרכז הליווי מתקשר, מציג את הכלים והזכויות, והמטופל בוחר מה מתאים לו.</p></div>
+<div class="tstep"><span class="n">3</span><h3>התאמת מלווה</h3><p>מרכז הליווי מתאים לכם נווט אישי וקבוע, שיצור איתכם קשר וילווה אתכם לאורך כל הדרך.</p></div>
+<div class="tstep"><span class="n">4</span><h3>קשר רציף</h3><p>הנווט שומר על קשר יזום גם בטיפולים וגם בשגרה החדשה שאחריהם.</p></div>
+</div>
+<div class="quote" style="max-width:780px;margin:34px auto 0;text-align:right">“יש שירות שיכול לעזור לכם לאורך התקופה, לבדוק זכויות ושירותים מגופים ועמותות שיכולים להגיע לכם — כדי שלא תצטרכו לחפש את זה לבד. אם תרצו, אשמח להעביר למזכירה שלהם את מספר הטלפון של אחד מכם או של אחד מבני המשפחה, והיא תתקשר אליכם ותסביר לכם. זה מעניין אתכם?”</div>
+</div></section>
+
+<section id="proof"><div class="wrap center">
+<span class="kicker">📊 מהמחקר</span>
+<h2>איש קשר אישי — כבר עובד בעולם</h2>
+<p class="lead">89% מהמטופלים ומהמחלימים אומרים שזה היה עוזר להם אילו מישהו ידע בדיוק איך לבדוק לשלומם ולתמוך בהם.</p>
+<div class="stats">
+<div class="stat"><div class="num">89%</div><p>מהמטופלים והמחלימים אומרים שזה היה עוזר להם</p></div>
+<div class="stat"><div class="num">9.9%</div><p>רק 1 מכל 10 מחלימים מרגישים שיש להם תמונה מקיפה על מלוא הזכויות וההטבות</p></div>
+<div class="stat"><div class="num">300K</div><p>אנשים חיים עם סרטן בישראל, וכולם ראויים לליווי אישי</p></div>
+<div class="stat"><div class="num">40%</div><p>יותר מיצוי שירותים כשמישהו יוזם ולא מחכה</p></div>
+</div>
+<h2 style="margin-top:64px">עוזרים למערכת, לא מחליפים אותה</h2>
+<table><thead><tr><th>הגוף</th><th>מה הוא עושה היום</th><th>מה "לב יעקב" מוסיפה</th></tr></thead><tbody>
+<tr><td>בתי חולים</td><td>טיפול רפואי מסור, מול עומס עבודה כבד</td><td class="add">ליווי שממשיך גם אחרי החזרה הביתה</td></tr>
+<tr><td>עמותות הסרטן</td><td>שירותים מצוינים ומגוונים (נופש, ייעוץ, ציוד ועוד)</td><td class="add">הנגשה וחיבור פעיל של המטופל לשירות המתאים לו</td></tr>
+<tr><td>המדינה</td><td>זכויות רחבות בחוק</td><td class="add">מיצוי יזום, בלי שהמטופל יצטרך לרדוף אחריו</td></tr>
+</tbody></table>
+<p class="closing">המערכת הקיימת — בתי החולים, הצוותים הסוציאליים, עשרות העמותות — עושה עבודה חשובה ומסורה מול היקף אדיר של מטופלים. <b>איש קשר אישי אחד ויזום</b> יכול להשלים את התמונה: לחבר כל מטופל, באופן עקבי, אל כל מה שכבר קיים ומחכה לו — לאורך כל הדרך, גם ב"שגרה החדשה".</p>
+</div></section>
+
+<section id="about" class="alt-bg"><div class="wrap center">
+<span class="kicker">🫶 אודות</span>
+<h2>לב יעקב — מיצוי זכויות וליווי מטופלים אונקולוגיים לאורך כל הדרך</h2>
+<p class="lead">עמותה מבוססת מחקר, שמנגישה לכל מטופל סרטן את מלוא ההטבות והזכויות המגיעות לו — מהמדינה וגם מעשרות העמותות הקיימות.</p>
+<p class="lead" style="margin-top:14px">המטופל לא צריך לדעת מה מגיע לו כדי לקבל את מה שמגיע לו. אצלנו יש מישהו אחד שמכיר אותו, זוכר אותו ונמצא שם עבורו — ללא עלות וללא התחייבות.</p>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap center">
+<span class="kicker">📞 יצירת קשר</span>
+<h2>שיחת היכרות קצרה, ללא כל התחייבות.</h2>
+<div class="cbox"><div class="who">שמואל</div><a class="tel" href="tel:0547221425">0547221425</a><p class="lead" style="font-size:1rem">אפשר להתקשר, או להשאיר הודעה ונחזור אליכם.</p></div>
+<div class="pro"><h3>🤝 רוצים להביא את הליווי הזה למחלקה שלכם?</h3><p>שיחת היכרות קצרה, ללא כל התחייבות.</p><p style="margin-top:14px"><a class="btn" style="background:#fff;color:var(--deep)!important" href="tel:0547221425">התקשרו אלינו</a></p></div>
+</div></section>
+</main>
+<footer><div class="wrap">
+<div class="fcols">
+<div><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-logo="1" alt="לב יעקב"><p>מיצוי זכויות וליווי מטופלים אונקולוגיים לאורך כל הדרך.</p></div>
+<div><h4>באתר</h4><a href="#why">הנתק</a><a href="#idea">הפתרון</a><a href="#how">איך זה עובד</a><a href="#proof">מהמחקר</a><a href="#about">אודות</a></div>
+<div><h4>יצירת קשר</h4><a href="tel:0547221425">שמואל · 0547221425</a></div>
+</div>
+<p class="fsrc">מקורות עיקריים: עמותת "אולקן", האגודה למלחמה בסרטן (דוח שנתי 2024 ואתר "ליווי אישי"), מבקר המדינה, כל-זכות, Current Oncology Reports, Cancer Epidemiology Biomarkers &amp; Prevention (Penn LDI), ACS CAN, ACCC Financial Advocacy Network, NCI/cancer.gov, WebMD, UCLA, JAMA Network Open, Journal of Clinical Oncology.</p>
+<p class="fsrc" style="border:0;margin:0;padding-top:6px">לב יעקב · כל הנתונים מקושרים למקורותיהם · עודכן: 2026</p>
+</div></footer>
+<script>document.querySelectorAll("img[data-logo]").forEach(function(i){i.src=document.querySelector(".brand img").src})</script></body></html>
